@@ -18,6 +18,9 @@ Jalankan:
   streamlit run teknoshop_agent.py
 """
 
+import os
+os.environ["ANONYMIZED_TELEMETRY"] = "False"
+
 import streamlit as st
 import json
 import csv
